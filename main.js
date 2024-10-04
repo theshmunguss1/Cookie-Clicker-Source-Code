@@ -5854,28 +5854,28 @@ Game.Launch=function()
 				if (Math.random()<0.75 || Game.cookiesEarned<10000)
 				{
 					if (Game.Objects['Grandma'].amount>0) list.push(choose([
-					'<q>Moist cookies.</q><sig>grandma</sig>',
-					'<q>We\'re nice grandmas.</q><sig>grandma</sig>',
-					'<q>Indentured servitude.</q><sig>grandma</sig>',
-					'<q>Come give grandma a kiss.</q><sig>grandma</sig>',
-					'<q>Why don\'t you visit more often?</q><sig>grandma</sig>',
-					'<q>Call me...</q><sig>grandma</sig>'
+					'<q>Yesn\'t Is so cool.</q><sig>grandma</sig>',
+					'<q>My messages now.</q><sig>Ram Networks</sig>',
+					'<q>I Love editing a popular game, it\'s fun!.</q><sig>Yesn\'t</sig>',
+					'<q>Come give John a kiss.</q><sig>John</sig>',
+					'<q>6165503944 call me...</q><sig>John</sig>',
+					'<q>Ohhhhhhhhhhhhhhhhhhhhhhh boy do I like cookies</q><sig>preston</sig>'
 					]));
 					
 					if (Game.Objects['Grandma'].amount>=50) list.push(choose([
-					'<q>Absolutely disgusting.</q><sig>grandma</sig>',
-					'<q>You make me sick.</q><sig>grandma</sig>',
-					'<q>You disgust me.</q><sig>grandma</sig>',
-					'<q>We rise.</q><sig>grandma</sig>',
-					'<q>It begins.</q><sig>grandma</sig>',
-					'<q>It\'ll all be over soon.</q><sig>grandma</sig>',
-					'<q>You could have stopped it.</q><sig>grandma</sig>'
+					'<q>Love you</q><sig>RamWorks</sig>',
+					'<q>Sell Us!!!!</q><sig>grandmas</sig>',
+					'<q>Thanks for using Ram Networks</q><sig>grandpa John</sig>',
+					'<q>Kill The Grandmas</q><sig>John</sig>',
+					'<q>8_Bit_Yesn\'t on YT </q><sig>grandma</sig>',
+					'<q>This is fun, isn\'t it</q><sig>grandma</sig>',
+					'<q>The Johnining</q><sig>grandma</sig>'
 					]));
 					
 					if (Game.HasAchiev('Just wrong') && Math.random()<0.4) list.push(choose([
-					'News : cookie manufacturer downsizes, sells own grandmother!',
-					'<q>It has betrayed us, the filthy little thing.</q><sig>grandma</sig>',
-					'<q>It tried to get rid of us, the nasty little thing.</q><sig>grandma</sig>',
+					'News : Child Labor is Legal in cookie land (Idk i don\'t know what to write)',
+					'<q>Fiddlesticks</q><sig>grandma</sig>',
+					'<q>use the kids insted</q><sig>grandma</sig>',
 					'<q>It thought we would go away by selling us. How quaint.</q><sig>grandma</sig>',
 					'<q>I can smell your rotten cookies.</q><sig>grandma</sig>'
 					]));
